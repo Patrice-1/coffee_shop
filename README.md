@@ -11,7 +11,15 @@ A python application that for a Coffee shop using OOP.
 
 ## Running the Application
 
-Run `python <module_name>` to run the application i.e `python3 -m coffee`
+Run `python -m <module_name>` to run the application i.e `python -m customer` or `python <script_name>` i.e `python customer.py`.
+Run `deactivate` to exit virtual environment.
+
+## Saving your work
+
+Run `git add .` to stage all changes for commit.
+Run `git commit -m "<commit_message>"` to commit changes.
+Finally run `git push` to push the changes to the main repository on github.
+**NB**: Run the above commands everytime you make changes to your work to save the progress. 
 ## Domain Model
 
 The domain model consists of three models: `Customer`, `Coffee`, and `Order`. A `Coffee` has many `Orders`, a `Customer` has many `Orders`, and an `Order` belongs to a `Customer` and a `Coffee`.
